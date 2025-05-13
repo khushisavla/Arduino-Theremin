@@ -1,7 +1,7 @@
 # Arduino-Theremin
 Inspired by the compact form and melodic capability of a portable harmonium, this project explores a theremin-style electronic instrument using Arduino. It uses hand distance to play musical notes, mimicking the interaction of a theremin while aiming to improve control and portability.
 
-**Current Functionality**
+**Current Functionality:**
 A master Arduino reads distance values from an ultrasonic sensor.
 This data is sent via I²C to a slave Arduino.
 The slave interprets the distance and plays corresponding tones on a buzzer.
